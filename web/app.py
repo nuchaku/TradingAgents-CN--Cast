@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-TradingAgents-CN Streamlit Web界面
-基于Streamlit的股票分析Web应用程序
+TradingAgents-CN Streamlit web interface.
+Streamlit-based stock analysis web application.
 """
 
 import streamlit as st
@@ -48,7 +48,7 @@ from utils.user_activity_logger import user_activity_logger
 
 # 设置页面配置
 st.set_page_config(
-    page_title="TradingAgents-CN 股票分析平台",
+    page_title="TradingAgents-CN Stock Analysis Platform",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
